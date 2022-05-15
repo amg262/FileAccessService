@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fileaccessservice</OriginalElement>
+  <nodes>
+    <node x="0.0" y="232.0">fileaccessservice.ConsoleOutput</node>
+    <node x="328.0" y="232.0">fileaccessservice.ConsoleInput</node>
+    <node x="0.0" y="79.0">fileaccessservice.CsvCommaFormat</node>
+    <node x="354.0" y="79.0">fileaccessservice.CsvQuoteTabFormat</node>
+    <node x="252.0" y="306.0">fileaccessservice.FileWritingStrategy</node>
+    <node x="282.5" y="385.0">fileaccessservice.TextFileWriter</node>
+    <node x="556.0" y="79.0">fileaccessservice.CsvQuoteCommaFormat</node>
+    <node x="233.75" y="0.0">fileaccessservice.FileFormattingStrategy</node>
+    <node x="0.0" y="306.0">fileaccessservice.FileReadingStrategy</node>
+    <node x="397.25" y="153.0">fileaccessservice.InputStrategy</node>
+    <node x="482.0" y="232.0">fileaccessservice.GuiInput</node>
+    <node x="166.0" y="232.0">fileaccessservice.GuiOutput</node>
+    <node x="497.0" y="306.0">fileaccessservice.FileService</node>
+    <node x="32.0" y="385.0">fileaccessservice.TextFileReader</node>
+    <node x="658.0" y="306.0">fileaccessservice.Startup</node>
+    <node x="75.25" y="153.0">fileaccessservice.OutputStrategy</node>
+    <node x="191.0" y="79.0">fileaccessservice.CsvTabFormat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fileaccessservice.ConsoleOutput" target="fileaccessservice.OutputStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="73.0" y="207.0" />
+      <point x="148.75" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.GuiOutput" target="fileaccessservice.OutputStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="224.5" y="207.0" />
+      <point x="148.75" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.ConsoleInput" target="fileaccessservice.InputStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="395.0" y="207.0" />
+      <point x="464.75" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.TextFileReader" target="fileaccessservice.FileReadingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.CsvCommaFormat" target="fileaccessservice.FileFormattingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="85.5" y="54.0" />
+      <point x="353.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.CsvQuoteTabFormat" target="fileaccessservice.FileFormattingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="445.0" y="54.0" />
+      <point x="353.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.CsvQuoteCommaFormat" target="fileaccessservice.FileFormattingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="661.0" y="54.0" />
+      <point x="353.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.TextFileWriter" target="fileaccessservice.FileWritingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.GuiInput" target="fileaccessservice.InputStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="534.5" y="207.0" />
+      <point x="464.75" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="fileaccessservice.CsvTabFormat" target="fileaccessservice.FileFormattingStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="262.5" y="54.0" />
+      <point x="353.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="383.0" y="207.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -25,7 +25,7 @@ public class Startup {
         
        //Input filepath into the input strategy pass in the path
        //Create contact class, create contact objects with fields
-       String filePath = "C:\\Temp\\andy.txt";
+       String filePath = "C:\\enhancements.csv";
         
        FileService service = new FileService(
                new TextFileWriter(new CsvCommaFormat(true), new GuiInput(filePath), "hours", "fees", "10", "20"),
